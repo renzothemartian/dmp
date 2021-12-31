@@ -18,5 +18,3 @@ Data is required to flow between one client, and another client. So what do you 
 ## Example of peering with multiple nodes.
 ### This only applies if you are peering with a client from another node, if thats not what you're interested in, look elsewhere.
 Client1 is asking node1 to ask member of its node if it has file named sword.stl, that node asks all of its members, (clients of its node) if its clients don't have the file, the node tells the client to try and ask another node (node2) if it has the file, the client will then try that node, finds a client that does have the file, we will call that client client2. Client 2 uploads to its node (node2) and allows client1 to download from node2 directly.
-
-
